@@ -1,8 +1,8 @@
-# js-sha3
+# vapjs-sha3
 
-[![Build Status](https://travis-ci.org/emn178/js-sha3.svg?branch=master)](https://travis-ci.org/emn178/js-sha3)
-[![Coverage Status](https://coveralls.io/repos/emn178/js-sha3/badge.svg?branch=master)](https://coveralls.io/r/emn178/js-sha3?branch=master)  
-[![NPM](https://nodei.co/npm/js-sha3.png?stars&downloads)](https://nodei.co/npm/js-sha3/)
+[![Build Status](https://travis-ci.org/vapjs/vapjs-sha3.svg?branch=master)](https://travis-ci.org/vapjs/vapjs-sha3)
+[![Coverage Status](https://coveralls.io/repos/vapjs/vapjs-sha3/badge.svg?branch=master)](https://coveralls.io/r/vapjs/vapjs-sha3?branch=master)  
+[![NPM](https://nodei.co/npm/vapjs-sha3.png?stars&downloads)](https://nodei.co/npm/vapjs-sha3/)
 
 A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 encoding.
 
@@ -23,17 +23,17 @@ A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 enco
 [Shake-256 Online](http://emn178.github.io/online-tools/shake_256.html)  
 
 ## Download
-[Compress](https://raw.github.com/emn178/js-sha3/master/build/sha3.min.js)  
-[Uncompress](https://raw.github.com/emn178/js-sha3/master/src/sha3.js)
+[Compress](https://raw.github.com/vapjs/vapjs-sha3/master/build/sha3.min.js)  
+[Uncompress](https://raw.github.com/vapjs/vapjs-sha3/master/src/sha3.js)
 
 ## Installation
-You can also install js-sha3 by using Bower.
+You can also install vapjs-sha3 by using Bower.
 
-    bower install js-sha3
+    bower install vapjs-sha3
 
 For node.js, you can use this command to install:
 
-    npm install js-sha3
+    npm install vapjs-sha3
 
 ## Usage
 You could use like this:
@@ -74,16 +74,16 @@ hash.hex();
 ```
 If you use node.js, you should require the module first:
 ```JavaScript
-sha3_512 = require('js-sha3').sha3_512;
-sha3_384 = require('js-sha3').sha3_384;
-sha3_256 = require('js-sha3').sha3_256;
-sha3_224 = require('js-sha3').sha3_224;
-keccak_512 = require('js-sha3').keccak_512;
-keccak_384 = require('js-sha3').keccak_384;
-keccak_256 = require('js-sha3').keccak_256;
-keccak_224 = require('js-sha3').keccak_224;
-shake_128 = require('js-sha3').shake_128;
-shake_256 = require('js-sha3').shake_256;
+sha3_512 = require('vapjs-sha3').sha3_512;
+sha3_384 = require('vapjs-sha3').sha3_384;
+sha3_256 = require('vapjs-sha3').sha3_256;
+sha3_224 = require('vapjs-sha3').sha3_224;
+keccak_512 = require('vapjs-sha3').keccak_512;
+keccak_384 = require('vapjs-sha3').keccak_384;
+keccak_256 = require('vapjs-sha3').keccak_256;
+keccak_224 = require('vapjs-sha3').keccak_224;
+shake_128 = require('vapjs-sha3').shake_128;
+shake_256 = require('vapjs-sha3').shake_256;
 ```
 
 ## Example
@@ -217,5 +217,5 @@ sha3_512(new Uint8Array([]));
 The project is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Contact
-The project's website is located at https://github.com/emn178/js-sha3  
+The project's website is located at https://github.com/vapjs/vapjs-sha3  
 Author: Chen, Yi-Cyuan (emn178@gmail.com)

@@ -1,5 +1,5 @@
 /**
- * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ * [vapjs-sha3]{@link https://github.com/vapjs/vapjs-sha3}
  *
  * @version 0.5.5
  * @author Chen, Yi-Cyuan [emn178@gmail.com]
