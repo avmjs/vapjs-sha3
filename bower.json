@@ -1,5 +1,5 @@
 {
-  "name": "js-sha3",
+  "name": "vapjs-sha3",
   "version": "0.6.1",
   "main": ["src/sha3.js"],
   "ignore": [
